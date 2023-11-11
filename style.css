@@ -1,18 +1,5 @@
-.nav-bar {
-    display: flex;
-    list-style-type: none;
-    margin: 10;
-    overflow: hidden;
-    background-color: #7881d2;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    align-items: baseline;
-}
-
 .header-row {
-    background-color: #2196F3;
+    background-color: #B0B76E;
     /* Header background color */
     color: #FFFFFF;
     /* Text color */
@@ -21,6 +8,8 @@
     display: flex;
     justify-content: flex-end;
     /* Align menu items to the right */
+    margin-left: 5%;
+    margin-right: 4.15%;
 }
 
 .menu {
@@ -40,3 +29,56 @@
     text-decoration: underline;
     /* Underline on hover */
 }
+
+.image-background {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 200px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.overlay-text {
+    font-size: 250px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #8D8D92;
+}
+
+.spa-day {
+    margin: 5%;
+    margin-top: 3%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+
+}
+
+.featured {
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    background-color: #CACD2A;
+    margin-right: 4.1%;
+}
+
+.information {}
