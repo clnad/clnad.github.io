@@ -1,5 +1,5 @@
 .header-row {
-    background-color: #B0B76E;
+    background-color: #DE022B;
     /* Header background color */
     color: #FFFFFF;
     /* Text color */
@@ -41,26 +41,35 @@
 
 
 .overlay {
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: -200px;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+
 }
 
 .overlay-text {
     font-size: 250px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #8D8D92;
+    font-family: 'Raleway';
+    color: #DE022B;
+    padding-top: 0px;
+    margin-top: 0px;
+
 }
 
 .spa-day {
     margin: 5%;
-    margin-top: 3%;
+    margin-top: 0.5%;
+    height: 800px;
+    margin-bottom: 3%;
 }
 
 .container {
@@ -77,8 +86,62 @@
     margin: 5%;
     margin-top: 10%;
     margin-bottom: 0%;
-    background-color: #CACD2A;
+    background-color: #ff6962;
     margin-right: 4.1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 2em;
+    color: #fff;
 }
 
-.information {}
+.information {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    margin-bottom: 3%;
+    font-family: 'optima', Segoe, Segoe UI, Candara, Calibri;
+    font-size: large;
+
+}
+
+.arrow {
+    margin-left: 5%;
+    margin-right: 4.1%;
+    width: 91%
+}
+
+
+.rsvp-button {
+    display: inline-block;
+    padding: 12px 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #DE022B;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+
+}
+
+.rsvp-button:hover {
+    background-color: #ff6962;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: stretch;
+    margin-right: 19%;
+}
+
+.info-space {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
